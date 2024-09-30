@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Join Revue – The Ultimate Creator Platform</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Tally.so Embed Script -->
     <script async src="https://tally.so/widgets/embed.js"></script>
-    <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -24,14 +24,17 @@
         <div class="container">
             <h2>Why Join <strong>Revue?</strong></h2>
             <div class="features-horizontal">
+                <!-- Collab GIF -->
                 <div class="feature">
                     <iframe src="https://giphy.com/embed/UsUxbwVjU0QwHDrsCO" width="100" height="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                     <h3>Collaborate</h3>
                 </div>
+                <!-- Grow GIF -->
                 <div class="feature">
                     <iframe src="https://giphy.com/embed/72HahsJD4atSE" width="100" height="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                     <h3>Monetize</h3>
                 </div>
+                <!-- Earn GIF -->
                 <div class="feature">
                     <iframe src="https://giphy.com/embed/3oEjHOUcNRKgpqTHiM" width="100" height="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                     <h3>Grow</h3>
@@ -54,6 +57,7 @@
         <div class="container">
             <h2>We Are Launching Soon!</h2>
             <p>Don’t miss out – join the waitlist and get early access to Revue.</p>
+            <!-- Tally Form Embed -->
             <iframe data-tally-src="https://tally.so/r/mKJYd7?transparentBackground=1" width="100%" height="600px" frameborder="0" marginheight="0" marginwidth="0" title="Join the Revue Waitlist"></iframe>
         </div>
     </section>
@@ -69,7 +73,8 @@
     <script>
         function showForm() {
             const waitlist = document.getElementById('waitlist');
-            waitlist.classList.add('show');
+            waitlist.style.display = 'block';
+            waitlist.style.opacity = '1';
             window.scrollTo({
                 top: waitlist.offsetTop,
                 behavior: 'smooth'
